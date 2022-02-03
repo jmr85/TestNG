@@ -10,7 +10,11 @@
 	</test>
 	<test thread-count="5" name="Car loan">
 		<classes>
-			<class name="test.day3" />
+			<class name="test.day3" >
+				<methods>
+					<exclude name="MobileLoginCarLoan"/>
+				</methods> 	
+			</class> 
 		</classes>
 	</test>
 </suite>
