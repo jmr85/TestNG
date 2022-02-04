@@ -16,7 +16,7 @@
 		<classes>
 			<class name="test.day3">
 				<methods>
-					<exclude name="Mobile.*" />
+					<exclude name="API.*" />
 				</methods>
 			</class>
 		</classes>

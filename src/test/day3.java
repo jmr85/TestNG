@@ -17,9 +17,9 @@ public class day3 {
 
 	}
 	@Test
-	public void MobileSignOutCarLoan() {
+	public void APICarLoan() {
 		
-		System.out.println("MobileSignOutCarLoan");
+		System.out.println("APICarLoan");
 
 	}
 
