@@ -11,15 +11,15 @@ public class day3 {
 
 	}
 	@Test
-	public void MobileLoginCarLoan() {
+	public void MobileSignInCarLoan() {
 		//Appium
-		System.out.println("MobileLoginCarLoan");
+		System.out.println("MobileSignInCarLoan");
 
 	}
 	@Test
-	public void LoginAPICarLoan() {
-		//Rest API automatiom
-		System.out.println("LoginAPICarLoan");
+	public void MobileSignOutCarLoan() {
+		
+		System.out.println("MobileSignOutCarLoan");
 
 	}
 
