@@ -1,11 +1,23 @@
 package test;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class day3 {
+	
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("before executing any methods in the class");
+	}
+	
+	@AfterClass
+	public void afterClass() {
+		System.out.println("after executing all methods in the class");
+	}
 
 	@Test
 	public void WebLoginCarLoan() {
@@ -28,7 +40,7 @@ public class day3 {
 		System.out.println("I am no 1");
 	}
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void MobileSignInCarLoan() {
 		//Appium
 		System.out.println("MobileSignInCarLoan");
