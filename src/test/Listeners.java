@@ -25,7 +25,7 @@ public class Listeners implements ITestListener {
 		// TODO Auto-generated method stub
 		// screenshot code
 		// response if API is failed
-		System.out.println("I failed executed Listeners Pass code" +result.getName());
+		System.out.println("I failed executed Listeners Pass code " +result.getName());
 	}
 
 	@Override
