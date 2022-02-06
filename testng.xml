@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
+	<parameter name="URL" value="https://qaclickacademy.com/" />
 	<test name="Personal loan">
+		<parameter name="URL" value="personal_loan.com" />
 		<classes>
 			<class name="test.day1">
 				<methods>
