@@ -3,7 +3,7 @@
 <suite name="Loan Department">
 	<parameter name="URL" value="https://qaclickacademy.com/" />
 	<test name="Personal loan">
-		<parameter name="URL" value="personal_loan.com" />
+		<parameter name="URL" value="personal_loan.com" />	
 		<classes>
 			<class name="test.day1">
 				<methods>
@@ -15,6 +15,8 @@
 		</classes>
 	</test>
 	<test name="Car Loan">
+		<parameter name="URL" value="car_loan.com" />
+		<parameter name="APIKey/usrname" value="123456" />
 		<classes>
 			<class name="test.day3">
 				<methods>
