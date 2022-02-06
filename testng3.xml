@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan Department">
 	<test name="Regression">
-		<groups>
+		<!-- <groups>
 			<run>
 				<exclude name="Smoke" />
 			</run>
-		</groups>
+		</groups> -->
 		<classes>
 			<class name="test.day1" />
 			<class name="test.day2" />

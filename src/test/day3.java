@@ -40,13 +40,13 @@ public class day3 {
 		System.out.println("I am no 1");
 	}
 	
-	@Test(groups={"Smoke"})
+	@Test(enabled=false)
 	public void MobileSignInCarLoan() {
 		//Appium
 		System.out.println("MobileSignInCarLoan");
 
 	}
-	@Test
+	@Test(timeOut=4000)
 	public void MobileSignOutCarLoan() {
 		//Appium
 		System.out.println("Mobile SIGNOUT");
