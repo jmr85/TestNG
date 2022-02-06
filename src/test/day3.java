@@ -46,7 +46,12 @@ public class day3 {
 		System.out.println("MobileSignInCarLoan");
 
 	}
-	@Test(dependsOnMethods={"WebLoginCarLoan"})
+	@Test
+	public void MobileSignOutCarLoan() {
+		//Appium
+		System.out.println("Mobile SIGNOUT");
+	}
+	@Test(dependsOnMethods={"WebLoginCarLoan", "MobileSignOutCarLoan"})
 	public void APICarLoan() {
 		
 		System.out.println("APICarLoan");
