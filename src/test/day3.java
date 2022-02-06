@@ -50,10 +50,12 @@ public class day3 {
 		System.out.println("MobileSignInCarLoan");
 
 	}
-	@Test(timeOut=4000)
-	public void MobileSignOutCarLoan() {
+	@Test(dataProvider="getData")
+	public void MobileSignOutCarLoan(String username, String password) {
 		//Appium
 		System.out.println("Mobile SIGNOUT");
+		System.out.println("Username: " + username);
+		System.out.println("Password: " + password);
 	}
 	@Test(dependsOnMethods={"WebLoginCarLoan", "MobileSignOutCarLoan"})
 	public void APICarLoan() {
